@@ -9,8 +9,6 @@ if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
 
-"colorscheme jellybeans
-
 set backspace=2   " Backspace deletes like most programs in insert mode
 set nobackup
 set nowritebackup
@@ -213,7 +211,7 @@ nmap <silent> <leader>s :set spell!<CR>
 map <C-c>n :cnext<CR>
 map <C-c>p :cprevious<CR>
 
-" Added by Leo
+
 
 " Switch into background mode
 nnoremap <leader>. <C-z>
@@ -298,9 +296,6 @@ nmap s <Plug>(easymotion-s2)
 " Indentation
 nnoremap <Leader>i m^gg=G`^
 
-" =========================================
-" Added by Roi
-" =========================================
 
 " Strip Whitespace
 nnoremap <leader>ws :StripWhitespace<CR>
@@ -317,7 +312,7 @@ nnoremap j gj
 nnoremap k gk
 
 " New Theme <3
-colorscheme anderson
+colorscheme gruvbox
 
 " Setting dark mode
 set background=dark

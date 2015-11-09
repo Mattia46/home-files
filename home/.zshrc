@@ -1,8 +1,3 @@
-#Path to your oh-my-zsh installation.
-
-
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 # currently liking: 'miloshadzic', 'blinks', 'smt', 'dogenpunk'
@@ -68,7 +63,7 @@ export ZSH=~/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
 # User configuration
 
-export PATH=$PATH:"/usr/local/bin:/usr/local/bin/git:/usr/local/heroku/bin:/Users/Mattia/.rvm/gems/ruby-2.1.1/bin:/Users/Mattia/.rvm/gems/ruby-2.1.1@global/bin:/Users/Mattia/.rvm/rubies/ruby-2.1.1/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Mattia/.rvm/bin"
+export PATH=$PATH:"/usr/local/bin:/usr/local/bin/git:/usr/local/heroku/bin:/Users/Mattia/.rvm/gems/ruby-2.2.3/bin:/Users/Mattia/.rvm/gems/ruby-2.2.3@global/bin:/Users/Mattia/.rvm/rubies/ruby-2.2.3/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/Mattia/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 # move /usr/local/bin/git: before /usr/bin:]
 export MANPAGER="col -b | vim -c 'set ft=man ts=8 nomod nolist nonu' -c 'nnoremap i <nop>' -"
@@ -109,6 +104,7 @@ mcd() { # creates a directory and places you in it
   cd $1
 }
 
+
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # Config for 'z': http://jilles.me/badassify-your-terminal-and-shell/
@@ -124,3 +120,5 @@ bindkey -v
 #alias v='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 #alias vim='NVIM_TUI_ENABLE_TRUE_COLOR=1 nvim'
 source "$HOME/.vim/bundle/gruvbox/gruvbox_256palette.sh"
+source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+. `brew --prefix`/etc/profile.d/z.sh
