@@ -21,7 +21,7 @@ set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
 set cursorline    " highlight the current line the cursor is on
 set complete=.,w,b,u,t,i
-
+set viminfo=
 " Make it obvious where 80 characters is
 set textwidth=80
 set colorcolumn=+1
@@ -60,12 +60,12 @@ set spelllang=en_gb
 " will use completion if not at beginning
 set wildmode=list:longest,list:full
 function! InsertTabWrapper()
-    let col = col('.') - 1
-    if !col || getline('.')[col - 1] !~ '\k'
-        return "\<tab>"
-    else
-        return "\<c-p>"
-    endif
+  let col = col('.') - 1
+  if !col || getline('.')[col - 1] !~ '\k'
+    return "\<tab>"
+  else
+    return "\<c-p>"
+  endif
 endfunction
 inoremap <Tab> <c-r>=InsertTabWrapper()<cr>
 inoremap <S-Tab> <c-n>
@@ -86,9 +86,9 @@ augroup vimrcEx
   " Don't do it for commit messages, when the position is invalid, or when
   " inside an event handler (happens when dropping a file on gvim).
   autocmd BufReadPost *
-    \ if &ft != 'gitcommit' && line("'\"") > 0 && line("'\"") <= line("$") |
-    \   exe "normal g`\"" |
-    \ endif
+        \ if &ft != 'gitcommit' && line("'\"") > 0 && line("'\"") <= line("$") |
+        \   exe "normal g`\"" |
+        \ endif
 
   " Cucumber navigation commands
   autocmd User Rails Rnavcommand step features/step_definitions -glob=**/* -suffix=_steps.rb
@@ -139,19 +139,19 @@ set splitbelow
 set splitright
 
 " Open the Rails ApiDock page for the word under cursor, using the 'open'
-  " command
+" command
 let g:browser = 'open '
 
 function! OpenRailsDoc(keyword)
-let url = 'http://apidock.com/rails/'.a:keyword
-exec '!'.g:browser.' '.url
+  let url = 'http://apidock.com/rails/'.a:keyword
+  exec '!'.g:browser.' '.url
 endfunction
 
 " Open the Ruby ApiDock page for the word under cursor, using the 'open'
 " command
 function! OpenRubyDoc(keyword)
-let url = 'http://apidock.com/ruby/'.a:keyword
-exec '!'.g:browser.' '.url
+  let url = 'http://apidock.com/ruby/'.a:keyword
+  exec '!'.g:browser.' '.url
 endfunction
 
 " NERDTree
@@ -221,7 +221,7 @@ nnoremap <leader>. <C-z>
 map <leader>g :Git<space>
 
 " Move between splits
-nnoremap <S-Tab> <C-W>W
+nnoremap <S-Tab> <C-j>W
 nnoremap <Tab> <C-W><C-W>
 
 " Cycle forward and backward through open buffers
@@ -334,8 +334,8 @@ nmap <leader>T :!thyme -d<cr><cr>
 let g:NumberToggleTrigger="<leader>r"
 
 " HardTime
-let g:hardtime_default_on = 1
-let g:hardtime_timeout = 900
-let g:hardtime_showmsg = 1
-let g:hardtime_maxcount = 2
+"let g:hardtime_default_on = 1
+"let g:hardtime_timeout = 900
+"let g:hardtime_showmsg = 1
+"let g:hardtime_maxcount = 2
 

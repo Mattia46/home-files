@@ -1,3 +1,6 @@
 [submodule "home/.oh-my-zsh"]
 	path = home/.oh-my-zsh
 	url = git@github.com:robbyrussell/oh-my-zsh.git
+[submodule "home/.vim/bunble/syntastic"]
+	path = home/.vim/bunble/syntastic
+	url = https://github.com/scrooloose/syntastic.git
