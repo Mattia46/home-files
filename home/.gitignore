@@ -1,4 +1,4 @@
-.env
-.bash_profile
-.zshrc
-.zshenv
+~/.env
+~/.bash_profile
+~/.zshrc
+~/.zshenv

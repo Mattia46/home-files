@@ -79,6 +79,10 @@ endif
 
 filetype plugin indent on
 
+"markdown: Mi permette di aprire automaticamente anche i file.md e non solo .markdown e .mdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
+
 augroup vimrcEx
   autocmd!
 
