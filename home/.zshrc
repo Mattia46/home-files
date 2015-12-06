@@ -2,9 +2,8 @@
 # time that oh-my-zsh is loaded.
 # currently liking: 'miloshadzic', 'blinks', 'smt', 'dogenpunk'
 ZSH_THEME="af-magic"
-#ZSH_THEME="darkblood"
 
-# Example aliases
+ Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias rake="noglob rake"

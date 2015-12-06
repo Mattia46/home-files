@@ -168,6 +168,9 @@ let NERDTreeShowHidden = 1
 let NERDTreeMapActivateNode='<CR>'
 let NERDTreeIgnore=['\.git','\.DS_Store','\.pdf', '.beam']
 
+"clipboard per copiare da vim ed incollare altrove:
+set clipboard=unnamed
+
 "" Shortcuts!!
 
 " Index ctags from any project, including those outside Rails
