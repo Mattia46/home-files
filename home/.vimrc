@@ -1,5 +1,6 @@
 " Use Vim settings, rather then Vi settings. This setting must be as early as
 " possible, as it has side effects.
+" ciao
 set nocompatible
 
 " Change <Leader>
