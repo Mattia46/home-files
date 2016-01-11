@@ -24,6 +24,8 @@ alias com='git commit -m'
 alias gps='git push'
 alias gpl='git pull'
 alias sta='git status'
+alias gck='git checkout'
+
 #
 source ~/.env
 # Uncomment the following line to use case-sensitive completion.
