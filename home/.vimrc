@@ -346,4 +346,5 @@ let g:NumberToggleTrigger="<leader>r"
 "let g:hardtime_timeout = 900
 "let g:hardtime_showmsg = 1
 "let g:hardtime_maxcount = 2
+set runtimepath+=~/.vim/bundle/jshint2.vim/
 
