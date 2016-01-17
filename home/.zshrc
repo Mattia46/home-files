@@ -3,7 +3,7 @@
 # currently liking: 'miloshadzic', 'blinks', 'smt', 'dogenpunk'
 ZSH_THEME="af-magic"
 
- Example aliases
+ #Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias rake="noglob rake"
@@ -132,3 +132,5 @@ source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . `brew --prefix`/etc/profile.d/z.sh
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+. `brew --prefix`/etc/profile.d/z.sh
+
