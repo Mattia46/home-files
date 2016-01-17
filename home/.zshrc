@@ -117,7 +117,7 @@ mcd() { # creates a directory and places you in it
 
 # Config for 'z': http://jilles.me/badassify-your-terminal-and-shell/
 . `brew --prefix`/etc/profile.d/z.sh
-source /usr/local/share/zsh/site-functions
+#source /usr/local/share/zsh/site-functions
 alias s="~/chat.txt << "
 
 alias rubes="ruby -run -ehttpd . -p8000"
