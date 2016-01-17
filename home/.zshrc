@@ -116,7 +116,6 @@ mcd() { # creates a directory and places you in it
 }
 
 # Config for 'z': http://jilles.me/badassify-your-terminal-and-shell/
-. `brew --prefix`/etc/profile.d/z.sh
 #source /usr/local/share/zsh/site-functions
 alias s="~/chat.txt << "
 
@@ -132,5 +131,3 @@ source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . `brew --prefix`/etc/profile.d/z.sh
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-. `brew --prefix`/etc/profile.d/z.sh
-
