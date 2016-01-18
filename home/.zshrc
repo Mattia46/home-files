@@ -3,11 +3,6 @@
 # currently liking: 'miloshadzic', 'blinks', 'smt', 'dogenpunk'
 ZSH_THEME="af-magic"
 
-<<<<<<< HEAD
-#Example aliases
-=======
- #Example aliases
->>>>>>> a926cf7e84a3bfec575d13de44054e35face3a4b
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias rake="noglob rake"
