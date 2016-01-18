@@ -1,6 +1,5 @@
 " Use Vim settings, rather then Vi settings. This setting must be as early as
 " possible, as it has side effects.
-" ciao
 set nocompatible
 
 " Change <Leader>
@@ -348,3 +347,4 @@ let g:NumberToggleTrigger="<leader>r"
 "let g:hardtime_maxcount = 2
 set runtimepath+=~/.vim/bundle/jshint2.vim/
 
+set runtimepath+=~/.vim/bundle/jshint2.vim/
