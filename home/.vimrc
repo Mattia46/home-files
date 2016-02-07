@@ -5,6 +5,7 @@ set nocompatible
 " Change <Leader>
 let mapleader = ","
 
+execute pathogen#infect()
 if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
 endif
