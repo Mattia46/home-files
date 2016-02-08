@@ -10,11 +10,11 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Define bundles via Github repos
-Plugin 'thoughtbot/vim-rspec'
-Plugin 'christoomey/vim-run-interactive'
-Plugin 'kchmck/vim-coffee-script'
+"Plugin 'thoughtbot/vim-rspec'
+"Plugin 'christoomey/vim-run-interactive'
+"Plugin 'kchmck/vim-coffee-script'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'pbrisbin/vim-mkdir'
+"Plugin 'pbrisbin/vim-mkdir'
 Plugin 'scrooloose/syntastic'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-endwise'
@@ -31,7 +31,6 @@ Plugin 'vim-scripts/matchit.zip'
 Plugin 'morhetz/gruvbox'
 Plugin 'takac/vim-hardtime'
 Plugin 'rizzatti/dash.vim'
-Plugin 'vim-R-plugin'
 " Plugin 'vim-scripts/tComment'
 
 " Auto align
