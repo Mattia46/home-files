@@ -39,14 +39,14 @@ Plugin 'vim-scripts/Align'
 Plugin 'vim-scripts/AutoAlign'
 
 " Snipmate
- Plugin 'MarcWeber/vim-addon-mw-utils'
- Plugin 'tomtom/tlib_vim'
- Plugin 'garbas/vim-snipmate'
- Plugin 'honza/vim-snippets'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
 
-" Plugin 'pangloss/vim-javascript'
+Plugin 'pangloss/vim-javascript'
 
-" Plugin 'rking/ag.vim'
+Plugin 'rking/ag.vim'
 
 " Nice status bar
 Plugin 'bling/vim-airline'
@@ -64,9 +64,9 @@ Plugin 'scrooloose/nerdcommenter'
 " Plugin 'elzr/vim-json'
 " Plugin 'sjl/vitality.vim'
 Plugin 'Chiel92/vim-autoformat'
-" Plugin 'ntpeters/vim-better-whitespace'
-" Plugin 'jeffkreeftmeijer/vim-numbertoggle'
-" Plugin 'mustache/vim-mustache-handlebars'
+Plugin 'ntpeters/vim-better-whitespace'
+Plugin 'jeffkreeftmeijer/vim-numbertoggle'
+Plugin 'mustache/vim-mustache-handlebars'
 
 call vundle#end()
 filetype on
