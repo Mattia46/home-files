@@ -39,10 +39,10 @@ Plugin 'vim-scripts/Align'
 Plugin 'vim-scripts/AutoAlign'
 
 " Snipmate
-" Plugin 'MarcWeber/vim-addon-mw-utils'
-" Plugin 'tomtom/tlib_vim'
-" Plugin 'garbas/vim-snipmate'
-" Plugin 'honza/vim-snippets'
+ Plugin 'MarcWeber/vim-addon-mw-utils'
+ Plugin 'tomtom/tlib_vim'
+ Plugin 'garbas/vim-snipmate'
+ Plugin 'honza/vim-snippets'
 
 " Plugin 'pangloss/vim-javascript'
 
