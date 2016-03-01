@@ -57,6 +57,7 @@ Plugin 'scrooloose/nerdcommenter'
 
 " Tmux
 " Plugin 'pivotal/tmux-config'
+Bundle 'roman/golden-ratio'
 
  Plugin 'danro/rename.vim'
  Plugin 'Lokaltog/vim-easymotion'
