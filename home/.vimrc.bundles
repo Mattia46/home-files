@@ -34,7 +34,7 @@ Plugin 'morhetz/gruvbox'
 " Plugin 'vim-scripts/tComment'
 
 " Auto align
-" Plugin 'vim-scripts/vimball'
+ Plugin 'vim-scripts/vimball'
  Plugin 'vim-scripts/Align'
 " Plugin 'vim-scripts/AutoAlign'
 
@@ -49,7 +49,7 @@ Plugin 'morhetz/gruvbox'
 " Plugin 'rking/ag.vim'
 
 " Nice status bar
-" Plugin 'bling/vim-airline'
+ Plugin 'bling/vim-airline'
 
 " Plugin 'roman/golden-ratio'
 Plugin 'scrooloose/nerdtree'
