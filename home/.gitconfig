@@ -96,3 +96,12 @@
   prune = true
 [credential]
 	helper = osxkeychain
+[filter "lfs"]
+	smudge = git-lfs smudge %f
+	required = true
+	clean = git-lfs clean %f
+[pack]
+	windowMemory = 100m
+	packSizeLimit = 100m
+	threads = 1
+	SizeLimit = 100m

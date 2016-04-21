@@ -25,6 +25,11 @@ alias gpl='git pull'
 alias sta='git status'
 alias gck='git checkout'
 
+#run Python server plus migrations:
+alias runserver='./manage.py runserver 0.0.0.0:8000'
+alias migrateserver='./manage.py makemigrations ; ./manage.py migrate ; ./manage.py runserver 0.0.0.0:8000'
+alias pipmigrateserver='pip install -R requirements/common.txt ; ./manage.py makemigrations ; ./manage.py migrate ; ./manage.py runserver 0.0.0.0:8000'
+alias ws3='source ~/Development/envs/ws3/bin/activate'
 #
 source ~/.env
 # Uncomment the following line to use case-sensitive completion.
@@ -131,6 +136,10 @@ source ~/.oh-my-zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 . `brew --prefix`/etc/profile.d/z.sh
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+export ANDROID_HOME=/Users/mattia/Development/android-sdk-macosx
+export ANDROID_HOME=/usr/local/opt/android-sdk
+export PATH="$PATH:$(xcode-select --print-path)/usr/bin"
 
 # The next line updates PATH for the Google Cloud SDK.
 source '/Users/mattia/development/google-cloud-sdk/path.zsh.inc'

@@ -14,18 +14,18 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'christoomey/vim-run-interactive'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'pbrisbin/vim-mkdir'
+Plugin 'pbrisbin/vim-mkdir' "crei una dir con :e
 Plugin 'scrooloose/syntastic'
-Plugin 'tpope/vim-bundler'
-Plugin 'tpope/vim-endwise'
-Plugin 'tpope/vim-eunuch'
-Plugin 'tpope/vim-fugitive'
-Plugin 'tpope/vim-rails'
-Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-bundler' "wraps bundle con :Bundle
+Plugin 'tpope/vim-endwise' "autocomplete def if etc
+Plugin 'tpope/vim-eunuch' "Vim sugar like :Move, :Rename etc
+Plugin 'tpope/vim-fugitive' "Wrap all Git commang
+Plugin 'tpope/vim-rails' "Rails shortcut
+Plugin 'tpope/vim-repeat' "Il punto ripete l'ultima azione
 Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-surround'
 Plugin 'vim-ruby/vim-ruby'
-Plugin 'jtratner/vim-flavored-markdown'
+Plugin 'jtratner/vim-flavored-markdown' "Riconosce MD come ``` ```
 Plugin 'vim-scripts/ctags.vim'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'morhetz/gruvbox'
@@ -53,17 +53,17 @@ Plugin 'bling/vim-airline'
 
 " Plugin 'roman/golden-ratio'
 Plugin 'scrooloose/nerdtree'
+Plugin 'xuyuanp/nerdtree-git-plugin'
 Plugin 'scrooloose/nerdcommenter'
 
 " Tmux
 " Plugin 'pivotal/tmux-config'
 Bundle 'roman/golden-ratio'
-
- Plugin 'danro/rename.vim'
- Plugin 'Lokaltog/vim-easymotion'
- Plugin 'yssl/QFEnter'
- Plugin 'elzr/vim-json'
- Plugin 'sjl/vitality.vim'
+Plugin 'danro/rename.vim'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'yssl/QFEnter'
+Plugin 'elzr/vim-json'
+Plugin 'sjl/vitality.vim'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'ntpeters/vim-better-whitespace'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle'

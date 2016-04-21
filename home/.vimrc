@@ -320,10 +320,12 @@ nnoremap j gj
 nnoremap k gk
 
 " New Theme <3
+"colorscheme hybrid
 colorscheme gruvbox
+"colorscheme dark-atom-256
 
 " Setting dark mode
-set background=dark
+"set background=dark
 
 " Supercharges '%' to work on do-end, def-end, class-end, module-end etc.
 runtime macros/matchit.vim
