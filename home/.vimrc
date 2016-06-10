@@ -160,14 +160,17 @@ function! OpenRubyDoc(keyword)
 endfunction
 
 " NERDTree
-let NERDTreeQuitOnOpen=1
+"let NERDTreeQuitOnOpen=1
 " colored NERD Tree
-let NERDChristmasTree = 1
+"let NERDChristmasTree = 1
 let NERDTreeHighlightCursorline = 1
 let NERDTreeShowHidden = 1
 " map enter to activating a node
-let NERDTreeMapActivateNode='<CR>'
+"let NERDTreeMapActivateNode='<CR>'
 let NERDTreeIgnore=['\.git','\.DS_Store','\.pdf', '.beam']
+
+"MIO
+let g:NERDTreeWinSize = 4
 
 "clipboard per copiare da vim ed incollare altrove:
 set clipboard=unnamed
@@ -349,3 +352,9 @@ let g:NumberToggleTrigger="<leader>r"
 "let g:hardtime_showmsg = 1
 "let g:hardtime_maxcount = 2
 set runtimepath+=~/.vim/bundle/jshint2.vim/
+
+"Enable folding
+set foldmethod=indent
+set foldlevel=99
+"Enable folding with the spacebar instead of 'za'
+nnoremap <space> za

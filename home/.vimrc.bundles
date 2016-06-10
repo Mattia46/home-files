@@ -6,6 +6,10 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim/
 call vundle#begin()
 
+"MIEI
+"Plugin 'pangloss/vim-javascript'
+Plugin 'mattn/emmet-vim'
+
 " Let Vundle manage Vundle
 Plugin 'gmarik/Vundle.vim'
 
